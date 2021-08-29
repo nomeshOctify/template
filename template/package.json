@@ -1,17 +1,17 @@
 {
-  "name": "create-boilerplate",
+  "name": "create-my-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.js"
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./src/index.js"
   },
   "bin": {
     "create-boilerplate": "./generate-app.js"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   },
